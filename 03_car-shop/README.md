@@ -16,8 +16,8 @@ Create a table named `cars` for a dealership with the following columns:
    - `price` (decimal, 2 decimal places)
 
 > CREATE DATABASE exercise_car_shop;
-> use exercise_car_shop;
-> create table cars(
+ use exercise_car_shop;
+ create table cars(
     -> car_id INT PRIMARY KEY,
     -> make VARCHAR(50),
     -> model VARCHAR(50),
